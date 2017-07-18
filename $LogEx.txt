@@ -1,0 +1,1333 @@
+;===================================================================================================
+; ICT3K5_6240DLL.dll  Revision: 2587-02F                                                            
+; PrtclRS8.dll  Revision: 2567-01O                                                                  
+; CollectLogEx.dll Revision: 2509-02A                                                               
+;===================================================================================================
+[2016/09/19]                                                                                        
+;===================================================================================================
+; ICT3K5_6240DLL.dll  Revision: 2587-02F                                                            
+; PrtclRS8.dll  Revision: 2567-01O                                                                  
+; CollectLogEx.dll Revision: 2509-02A                                                               
+;===================================================================================================
+[2016/09/19]                                                                                        
+;===================================================================================================
+; ICT3K5_6240DLL.dll  Revision: 2587-02F                                                            
+; PrtclRS8.dll  Revision: 2567-01O                                                                  
+; CollectLogEx.dll Revision: 2509-02A                                                               
+;===================================================================================================
+[2016/09/19]                                                                                        
+[16:35:47.620] COM1> ConnectDevice( 115200baud)                                                     
+[16:35:47.620] COM1> /TimeoutForAckOrNak=2000                                                       
+[16:35:47.620] COM1> /MaximumCommandRetryCount=3                                                    
+[16:35:47.620] COM1> /MaximumReplyRequireCount=3                                                    
+[16:35:47.621] COM1> /TimeoutOfCharacter=1000                                                       
+[16:35:47.621] COM1> /DelayTimeForReaction=5                                                        
+[16:35:47.621] COM1> /CommandToCommandInterval=5                                                    
+[16:35:47.621] COM1> /CheckDSRStatus=1                                                              
+[16:35:47.621] COM1> /ControlDTRStatus=1                                                            
+[16:35:47.621] COM1> /CheckCTSStatus=1                                                              
+[16:35:47.621] COM1> /ControlRTSStatus=1                                                            
+[16:35:47.621] COM1> /ThresholdForDetermingPowerOff=100                                             
+[16:35:47.621] COM1> /TimeoutForCancellation=2000                                                   
+[16:35:47.621] COM1> /MaximumCancellationRetryCount=3                                               
+[16:35:47.621] COM1> /MonitorTransaction=0                                                          
+[16:35:47.622] COM1> Succeeded in opening COM1 at 115200 baud.                                      
+[16:35:48.633] COM1> Closed the port.                                                               
+[16:35:48.633] COM1> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[16:35:48.733] COM1> ~ConnectDevice failed returning 102H.                                          
+[16:35:54.964] COM1> ConnectDevice( 38400baud)                                                      
+[16:35:54.964] COM1> /TimeoutForAckOrNak=2000                                                       
+[16:35:54.964] COM1> /MaximumCommandRetryCount=3                                                    
+[16:35:54.965] COM1> /MaximumReplyRequireCount=3                                                    
+[16:35:54.965] COM1> /TimeoutOfCharacter=1000                                                       
+[16:35:54.965] COM1> /DelayTimeForReaction=5                                                        
+[16:35:54.965] COM1> /CommandToCommandInterval=5                                                    
+[16:35:54.965] COM1> /CheckDSRStatus=1                                                              
+[16:35:54.965] COM1> /ControlDTRStatus=1                                                            
+[16:35:54.965] COM1> /CheckCTSStatus=1                                                              
+[16:35:54.965] COM1> /ControlRTSStatus=1                                                            
+[16:35:54.966] COM1> /ThresholdForDetermingPowerOff=100                                             
+[16:35:54.966] COM1> /TimeoutForCancellation=2000                                                   
+[16:35:54.966] COM1> /MaximumCancellationRetryCount=3                                               
+[16:35:54.966] COM1> /MonitorTransaction=0                                                          
+[16:35:54.967] COM1> Succeeded in opening COM1 at 38400 baud.                                       
+[16:35:55.980] COM1> Closed the port.                                                               
+[16:35:55.980] COM1> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[16:35:56.080] COM1> ~ConnectDevice failed returning 102H.                                          
+[16:36:03.668] COM1> ConnectDevice( 19200baud)                                                      
+[16:36:03.668] COM1> /TimeoutForAckOrNak=2000                                                       
+[16:36:03.668] COM1> /MaximumCommandRetryCount=3                                                    
+[16:36:03.668] COM1> /MaximumReplyRequireCount=3                                                    
+[16:36:03.668] COM1> /TimeoutOfCharacter=1000                                                       
+[16:36:03.668] COM1> /DelayTimeForReaction=5                                                        
+[16:36:03.668] COM1> /CommandToCommandInterval=5                                                    
+[16:36:03.668] COM1> /CheckDSRStatus=1                                                              
+[16:36:03.668] COM1> /ControlDTRStatus=1                                                            
+[16:36:03.668] COM1> /CheckCTSStatus=1                                                              
+[16:36:03.668] COM1> /ControlRTSStatus=1                                                            
+[16:36:03.668] COM1> /ThresholdForDetermingPowerOff=100                                             
+[16:36:03.668] COM1> /TimeoutForCancellation=2000                                                   
+[16:36:03.668] COM1> /MaximumCancellationRetryCount=3                                               
+[16:36:03.668] COM1> /MonitorTransaction=0                                                          
+[16:36:03.669] COM1> Succeeded in opening COM1 at 19200 baud.                                       
+[16:36:04.685] COM1> Closed the port.                                                               
+[16:36:04.685] COM1> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[16:36:04.785] COM1> ~ConnectDevice failed returning 102H.                                          
+[16:38:26.340] COM2> ConnectDevice( 38400baud)                                                      
+[16:38:26.340] COM2> /TimeoutForAckOrNak=2000                                                       
+[16:38:26.340] COM2> /MaximumCommandRetryCount=3                                                    
+[16:38:26.340] COM2> /MaximumReplyRequireCount=3                                                    
+[16:38:26.340] COM2> /TimeoutOfCharacter=1000                                                       
+[16:38:26.340] COM2> /DelayTimeForReaction=5                                                        
+[16:38:26.341] COM2> /CommandToCommandInterval=5                                                    
+[16:38:26.341] COM2> /CheckDSRStatus=1                                                              
+[16:38:26.341] COM2> /ControlDTRStatus=1                                                            
+[16:38:26.341] COM2> /CheckCTSStatus=1                                                              
+[16:38:26.341] COM2> /ControlRTSStatus=1                                                            
+[16:38:26.341] COM2> /ThresholdForDetermingPowerOff=100                                             
+[16:38:26.341] COM2> /TimeoutForCancellation=2000                                                   
+[16:38:26.341] COM2> /MaximumCancellationRetryCount=3                                               
+[16:38:26.341] COM2> /MonitorTransaction=0                                                          
+[16:38:26.342] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[16:38:27.355] COM2> Closed the port.                                                               
+[16:38:27.355] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[16:38:27.455] COM2> ~ConnectDevice failed returning 102H.                                          
+[16:38:32.052] COM2> ConnectDevice( 115200baud)                                                     
+[16:38:32.052] COM2> /TimeoutForAckOrNak=2000                                                       
+[16:38:32.052] COM2> /MaximumCommandRetryCount=3                                                    
+[16:38:32.052] COM2> /MaximumReplyRequireCount=3                                                    
+[16:38:32.052] COM2> /TimeoutOfCharacter=1000                                                       
+[16:38:32.052] COM2> /DelayTimeForReaction=5                                                        
+[16:38:32.052] COM2> /CommandToCommandInterval=5                                                    
+[16:38:32.052] COM2> /CheckDSRStatus=1                                                              
+[16:38:32.052] COM2> /ControlDTRStatus=1                                                            
+[16:38:32.053] COM2> /CheckCTSStatus=1                                                              
+[16:38:32.053] COM2> /ControlRTSStatus=1                                                            
+[16:38:32.053] COM2> /ThresholdForDetermingPowerOff=100                                             
+[16:38:32.053] COM2> /TimeoutForCancellation=2000                                                   
+[16:38:32.053] COM2> /MaximumCancellationRetryCount=3                                               
+[16:38:32.053] COM2> /MonitorTransaction=0                                                          
+[16:38:32.054] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[16:38:33.065] COM2> Closed the port.                                                               
+[16:38:33.065] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[16:38:33.165] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:35:39.378] COM2> ConnectDevice( 115200baud)                                                     
+[17:35:39.378] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:35:39.378] COM2> /MaximumCommandRetryCount=3                                                    
+[17:35:39.378] COM2> /MaximumReplyRequireCount=3                                                    
+[17:35:39.378] COM2> /TimeoutOfCharacter=1000                                                       
+[17:35:39.378] COM2> /DelayTimeForReaction=5                                                        
+[17:35:39.378] COM2> /CommandToCommandInterval=5                                                    
+[17:35:39.379] COM2> /CheckDSRStatus=1                                                              
+[17:35:39.379] COM2> /ControlDTRStatus=1                                                            
+[17:35:39.379] COM2> /CheckCTSStatus=1                                                              
+[17:35:39.379] COM2> /ControlRTSStatus=1                                                            
+[17:35:39.379] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:35:39.379] COM2> /TimeoutForCancellation=2000                                                   
+[17:35:39.379] COM2> /MaximumCancellationRetryCount=3                                               
+[17:35:39.379] COM2> /MonitorTransaction=0                                                          
+[17:35:39.379] COM2> Failed to open COM2.                                                           
+[17:35:39.383]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:35:39.483] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:35:43.890] COM2> ConnectDevice( 115200baud)                                                     
+[17:35:43.890] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:35:43.890] COM2> /MaximumCommandRetryCount=3                                                    
+[17:35:43.890] COM2> /MaximumReplyRequireCount=3                                                    
+[17:35:43.891] COM2> /TimeoutOfCharacter=1000                                                       
+[17:35:43.891] COM2> /DelayTimeForReaction=5                                                        
+[17:35:43.891] COM2> /CommandToCommandInterval=5                                                    
+[17:35:43.891] COM2> /CheckDSRStatus=1                                                              
+[17:35:43.891] COM2> /ControlDTRStatus=1                                                            
+[17:35:43.891] COM2> /CheckCTSStatus=1                                                              
+[17:35:43.891] COM2> /ControlRTSStatus=1                                                            
+[17:35:43.891] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:35:43.891] COM2> /TimeoutForCancellation=2000                                                   
+[17:35:43.891] COM2> /MaximumCancellationRetryCount=3                                               
+[17:35:43.891] COM2> /MonitorTransaction=0                                                          
+[17:35:43.891] COM2> Failed to open COM2.                                                           
+[17:35:43.891]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:35:43.991] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:35:51.042] COM2> ConnectDevice( 115200baud)                                                     
+[17:35:51.042] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:35:51.043] COM2> /MaximumCommandRetryCount=3                                                    
+[17:35:51.043] COM2> /MaximumReplyRequireCount=3                                                    
+[17:35:51.043] COM2> /TimeoutOfCharacter=1000                                                       
+[17:35:51.043] COM2> /DelayTimeForReaction=5                                                        
+[17:35:51.043] COM2> /CommandToCommandInterval=5                                                    
+[17:35:51.043] COM2> /CheckDSRStatus=1                                                              
+[17:35:51.043] COM2> /ControlDTRStatus=1                                                            
+[17:35:51.043] COM2> /CheckCTSStatus=1                                                              
+[17:35:51.043] COM2> /ControlRTSStatus=1                                                            
+[17:35:51.043] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:35:51.043] COM2> /TimeoutForCancellation=2000                                                   
+[17:35:51.043] COM2> /MaximumCancellationRetryCount=3                                               
+[17:35:51.043] COM2> /MonitorTransaction=0                                                          
+[17:35:51.043] COM2> Failed to open COM2.                                                           
+[17:35:51.043]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:35:51.143] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:39:01.465] COM2> ConnectDevice( 38400baud)                                                      
+[17:39:01.465] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:39:01.465] COM2> /MaximumCommandRetryCount=3                                                    
+[17:39:01.465] COM2> /MaximumReplyRequireCount=3                                                    
+[17:39:01.465] COM2> /TimeoutOfCharacter=1000                                                       
+[17:39:01.465] COM2> /DelayTimeForReaction=5                                                        
+[17:39:01.465] COM2> /CommandToCommandInterval=5                                                    
+[17:39:01.465] COM2> /CheckDSRStatus=1                                                              
+[17:39:01.465] COM2> /ControlDTRStatus=1                                                            
+[17:39:01.465] COM2> /CheckCTSStatus=1                                                              
+[17:39:01.465] COM2> /ControlRTSStatus=1                                                            
+[17:39:01.466] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:39:01.466] COM2> /TimeoutForCancellation=2000                                                   
+[17:39:01.466] COM2> /MaximumCancellationRetryCount=3                                               
+[17:39:01.466] COM2> /MonitorTransaction=0                                                          
+[17:39:01.466] COM2> Failed to open COM2.                                                           
+[17:39:01.466]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:39:01.566] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:39:04.130] COM2> ConnectDevice( 38400baud)                                                      
+[17:39:04.130] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:39:04.130] COM2> /MaximumCommandRetryCount=3                                                    
+[17:39:04.130] COM2> /MaximumReplyRequireCount=3                                                    
+[17:39:04.130] COM2> /TimeoutOfCharacter=1000                                                       
+[17:39:04.130] COM2> /DelayTimeForReaction=5                                                        
+[17:39:04.130] COM2> /CommandToCommandInterval=5                                                    
+[17:39:04.130] COM2> /CheckDSRStatus=1                                                              
+[17:39:04.130] COM2> /ControlDTRStatus=1                                                            
+[17:39:04.131] COM2> /CheckCTSStatus=1                                                              
+[17:39:04.131] COM2> /ControlRTSStatus=1                                                            
+[17:39:04.131] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:39:04.131] COM2> /TimeoutForCancellation=2000                                                   
+[17:39:04.131] COM2> /MaximumCancellationRetryCount=3                                               
+[17:39:04.131] COM2> /MonitorTransaction=0                                                          
+[17:39:04.131] COM2> Failed to open COM2.                                                           
+[17:39:04.131]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:39:04.231] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:39:08.786] COM2> ConnectDevice( 19200baud)                                                      
+[17:39:08.786] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:39:08.786] COM2> /MaximumCommandRetryCount=3                                                    
+[17:39:08.786] COM2> /MaximumReplyRequireCount=3                                                    
+[17:39:08.786] COM2> /TimeoutOfCharacter=1000                                                       
+[17:39:08.786] COM2> /DelayTimeForReaction=5                                                        
+[17:39:08.786] COM2> /CommandToCommandInterval=5                                                    
+[17:39:08.786] COM2> /CheckDSRStatus=1                                                              
+[17:39:08.786] COM2> /ControlDTRStatus=1                                                            
+[17:39:08.786] COM2> /CheckCTSStatus=1                                                              
+[17:39:08.786] COM2> /ControlRTSStatus=1                                                            
+[17:39:08.786] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:39:08.786] COM2> /TimeoutForCancellation=2000                                                   
+[17:39:08.786] COM2> /MaximumCancellationRetryCount=3                                               
+[17:39:08.786] COM2> /MonitorTransaction=0                                                          
+[17:39:08.786] COM2> Failed to open COM2.                                                           
+[17:39:08.787]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:39:08.887] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:39:13.426] COM2> ConnectDevice( 9600baud)                                                       
+[17:39:13.426] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:39:13.426] COM2> /MaximumCommandRetryCount=3                                                    
+[17:39:13.426] COM2> /MaximumReplyRequireCount=3                                                    
+[17:39:13.426] COM2> /TimeoutOfCharacter=1000                                                       
+[17:39:13.426] COM2> /DelayTimeForReaction=5                                                        
+[17:39:13.427] COM2> /CommandToCommandInterval=5                                                    
+[17:39:13.427] COM2> /CheckDSRStatus=1                                                              
+[17:39:13.427] COM2> /ControlDTRStatus=1                                                            
+[17:39:13.427] COM2> /CheckCTSStatus=1                                                              
+[17:39:13.427] COM2> /ControlRTSStatus=1                                                            
+[17:39:13.427] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:39:13.427] COM2> /TimeoutForCancellation=2000                                                   
+[17:39:13.427] COM2> /MaximumCancellationRetryCount=3                                               
+[17:39:13.427] COM2> /MonitorTransaction=0                                                          
+[17:39:13.427] COM2> Failed to open COM2.                                                           
+[17:39:13.427]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:39:13.527] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:39:18.026] COM2> ConnectDevice( 115200baud)                                                     
+[17:39:18.026] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:39:18.026] COM2> /MaximumCommandRetryCount=3                                                    
+[17:39:18.026] COM2> /MaximumReplyRequireCount=3                                                    
+[17:39:18.026] COM2> /TimeoutOfCharacter=1000                                                       
+[17:39:18.026] COM2> /DelayTimeForReaction=5                                                        
+[17:39:18.026] COM2> /CommandToCommandInterval=5                                                    
+[17:39:18.026] COM2> /CheckDSRStatus=1                                                              
+[17:39:18.026] COM2> /ControlDTRStatus=1                                                            
+[17:39:18.026] COM2> /CheckCTSStatus=1                                                              
+[17:39:18.026] COM2> /ControlRTSStatus=1                                                            
+[17:39:18.026] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:39:18.026] COM2> /TimeoutForCancellation=2000                                                   
+[17:39:18.026] COM2> /MaximumCancellationRetryCount=3                                               
+[17:39:18.026] COM2> /MonitorTransaction=0                                                          
+[17:39:18.026] COM2> Failed to open COM2.                                                           
+[17:39:18.026]  GetLastError returned 5H, i.e., Access is denied.                                   
+[17:39:18.126] COM2> ~ConnectDevice failed returning 103H.                                          
+[17:42:10.266] COM2> ConnectDevice( 115200baud)                                                     
+[17:42:10.266] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:42:10.266] COM2> /MaximumCommandRetryCount=3                                                    
+[17:42:10.266] COM2> /MaximumReplyRequireCount=3                                                    
+[17:42:10.266] COM2> /TimeoutOfCharacter=1000                                                       
+[17:42:10.266] COM2> /DelayTimeForReaction=5                                                        
+[17:42:10.266] COM2> /CommandToCommandInterval=5                                                    
+[17:42:10.267] COM2> /CheckDSRStatus=1                                                              
+[17:42:10.267] COM2> /ControlDTRStatus=1                                                            
+[17:42:10.267] COM2> /CheckCTSStatus=1                                                              
+[17:42:10.267] COM2> /ControlRTSStatus=1                                                            
+[17:42:10.267] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:42:10.267] COM2> /TimeoutForCancellation=2000                                                   
+[17:42:10.267] COM2> /MaximumCancellationRetryCount=3                                               
+[17:42:10.267] COM2> /MonitorTransaction=0                                                          
+[17:42:10.268] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[17:42:11.279] COM2> Closed the port.                                                               
+[17:42:11.279] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:42:11.379] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:47:00.825] COM2> ConnectDevice( 38400baud)                                                      
+[17:47:00.825] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:47:00.825] COM2> /MaximumCommandRetryCount=3                                                    
+[17:47:00.825] COM2> /MaximumReplyRequireCount=3                                                    
+[17:47:00.825] COM2> /TimeoutOfCharacter=1000                                                       
+[17:47:00.825] COM2> /DelayTimeForReaction=5                                                        
+[17:47:00.825] COM2> /CommandToCommandInterval=5                                                    
+[17:47:00.826] COM2> /CheckDSRStatus=1                                                              
+[17:47:00.826] COM2> /ControlDTRStatus=1                                                            
+[17:47:00.826] COM2> /CheckCTSStatus=1                                                              
+[17:47:00.826] COM2> /ControlRTSStatus=1                                                            
+[17:47:00.826] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:47:00.826] COM2> /TimeoutForCancellation=2000                                                   
+[17:47:00.826] COM2> /MaximumCancellationRetryCount=3                                               
+[17:47:00.826] COM2> /MonitorTransaction=0                                                          
+[17:47:00.827] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:47:01.840] COM2> Closed the port.                                                               
+[17:47:01.840] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:47:01.940] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:50:14.210] COM2> ConnectDevice( 38400baud)                                                      
+[17:50:14.210] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:50:14.210] COM2> /MaximumCommandRetryCount=3                                                    
+[17:50:14.210] COM2> /MaximumReplyRequireCount=3                                                    
+[17:50:14.211] COM2> /TimeoutOfCharacter=1000                                                       
+[17:50:14.211] COM2> /DelayTimeForReaction=5                                                        
+[17:50:14.211] COM2> /CommandToCommandInterval=5                                                    
+[17:50:14.211] COM2> /CheckDSRStatus=1                                                              
+[17:50:14.211] COM2> /ControlDTRStatus=1                                                            
+[17:50:14.211] COM2> /CheckCTSStatus=1                                                              
+[17:50:14.211] COM2> /ControlRTSStatus=1                                                            
+[17:50:14.211] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:50:14.211] COM2> /TimeoutForCancellation=2000                                                   
+[17:50:14.211] COM2> /MaximumCancellationRetryCount=3                                               
+[17:50:14.211] COM2> /MonitorTransaction=0                                                          
+[17:50:14.212] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:50:15.225] COM2> Closed the port.                                                               
+[17:50:15.225] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:50:15.325] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:50:23.882] COM2> ConnectDevice( 38400baud)                                                      
+[17:50:23.882] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:50:23.882] COM2> /MaximumCommandRetryCount=3                                                    
+[17:50:23.882] COM2> /MaximumReplyRequireCount=3                                                    
+[17:50:23.882] COM2> /TimeoutOfCharacter=1000                                                       
+[17:50:23.882] COM2> /DelayTimeForReaction=5                                                        
+[17:50:23.882] COM2> /CommandToCommandInterval=5                                                    
+[17:50:23.883] COM2> /CheckDSRStatus=1                                                              
+[17:50:23.883] COM2> /ControlDTRStatus=1                                                            
+[17:50:23.883] COM2> /CheckCTSStatus=1                                                              
+[17:50:23.883] COM2> /ControlRTSStatus=1                                                            
+[17:50:23.883] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:50:23.883] COM2> /TimeoutForCancellation=2000                                                   
+[17:50:23.883] COM2> /MaximumCancellationRetryCount=3                                               
+[17:50:23.883] COM2> /MonitorTransaction=0                                                          
+[17:50:23.884] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:50:24.897] COM2> Closed the port.                                                               
+[17:50:24.897] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:50:24.997] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:50:27.386] COM2> ConnectDevice( 38400baud)                                                      
+[17:50:27.386] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:50:27.386] COM2> /MaximumCommandRetryCount=3                                                    
+[17:50:27.386] COM2> /MaximumReplyRequireCount=3                                                    
+[17:50:27.386] COM2> /TimeoutOfCharacter=1000                                                       
+[17:50:27.386] COM2> /DelayTimeForReaction=5                                                        
+[17:50:27.386] COM2> /CommandToCommandInterval=5                                                    
+[17:50:27.387] COM2> /CheckDSRStatus=1                                                              
+[17:50:27.387] COM2> /ControlDTRStatus=1                                                            
+[17:50:27.387] COM2> /CheckCTSStatus=1                                                              
+[17:50:27.387] COM2> /ControlRTSStatus=1                                                            
+[17:50:27.387] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:50:27.387] COM2> /TimeoutForCancellation=2000                                                   
+[17:50:27.387] COM2> /MaximumCancellationRetryCount=3                                               
+[17:50:27.387] COM2> /MonitorTransaction=0                                                          
+[17:50:27.388] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:50:28.401] COM2> Closed the port.                                                               
+[17:50:28.401] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:50:28.502] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:50:33.482] COM2> ConnectDevice( 38400baud)                                                      
+[17:50:33.482] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:50:33.482] COM2> /MaximumCommandRetryCount=3                                                    
+[17:50:33.482] COM2> /MaximumReplyRequireCount=3                                                    
+[17:50:33.482] COM2> /TimeoutOfCharacter=1000                                                       
+[17:50:33.482] COM2> /DelayTimeForReaction=5                                                        
+[17:50:33.482] COM2> /CommandToCommandInterval=5                                                    
+[17:50:33.482] COM2> /CheckDSRStatus=1                                                              
+[17:50:33.482] COM2> /ControlDTRStatus=1                                                            
+[17:50:33.483] COM2> /CheckCTSStatus=1                                                              
+[17:50:33.483] COM2> /ControlRTSStatus=1                                                            
+[17:50:33.483] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:50:33.483] COM2> /TimeoutForCancellation=2000                                                   
+[17:50:33.483] COM2> /MaximumCancellationRetryCount=3                                               
+[17:50:33.483] COM2> /MonitorTransaction=0                                                          
+[17:50:33.484] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:50:34.497] COM2> Closed the port.                                                               
+[17:50:34.497] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:50:34.597] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:58:16.026] COM2> ConnectDevice( 38400baud)                                                      
+[17:58:16.026] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:58:16.026] COM2> /MaximumCommandRetryCount=3                                                    
+[17:58:16.026] COM2> /MaximumReplyRequireCount=3                                                    
+[17:58:16.026] COM2> /TimeoutOfCharacter=1000                                                       
+[17:58:16.026] COM2> /DelayTimeForReaction=5                                                        
+[17:58:16.026] COM2> /CommandToCommandInterval=5                                                    
+[17:58:16.026] COM2> /CheckDSRStatus=1                                                              
+[17:58:16.026] COM2> /ControlDTRStatus=1                                                            
+[17:58:16.026] COM2> /CheckCTSStatus=1                                                              
+[17:58:16.026] COM2> /ControlRTSStatus=1                                                            
+[17:58:16.026] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:58:16.026] COM2> /TimeoutForCancellation=2000                                                   
+[17:58:16.026] COM2> /MaximumCancellationRetryCount=3                                               
+[17:58:16.026] COM2> /MonitorTransaction=0                                                          
+[17:58:16.027] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:58:17.040] COM2> Closed the port.                                                               
+[17:58:17.040] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:58:17.140] COM2> ~ConnectDevice failed returning 102H.                                          
+[17:58:23.097] COM2> ConnectDevice( 38400baud)                                                      
+[17:58:23.097] COM2> /TimeoutForAckOrNak=2000                                                       
+[17:58:23.097] COM2> /MaximumCommandRetryCount=3                                                    
+[17:58:23.097] COM2> /MaximumReplyRequireCount=3                                                    
+[17:58:23.098] COM2> /TimeoutOfCharacter=1000                                                       
+[17:58:23.098] COM2> /DelayTimeForReaction=5                                                        
+[17:58:23.098] COM2> /CommandToCommandInterval=5                                                    
+[17:58:23.098] COM2> /CheckDSRStatus=1                                                              
+[17:58:23.098] COM2> /ControlDTRStatus=1                                                            
+[17:58:23.098] COM2> /CheckCTSStatus=1                                                              
+[17:58:23.098] COM2> /ControlRTSStatus=1                                                            
+[17:58:23.098] COM2> /ThresholdForDetermingPowerOff=100                                             
+[17:58:23.098] COM2> /TimeoutForCancellation=2000                                                   
+[17:58:23.098] COM2> /MaximumCancellationRetryCount=3                                               
+[17:58:23.098] COM2> /MonitorTransaction=0                                                          
+[17:58:23.099] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[17:58:24.112] COM2> Closed the port.                                                               
+[17:58:24.112] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[17:58:24.212] COM2> ~ConnectDevice failed returning 102H.                                          
+[18:22:15.882] COM2> ConnectDevice( 38400baud)                                                      
+[18:22:15.882] COM2> /TimeoutForAckOrNak=2000                                                       
+[18:22:15.882] COM2> /MaximumCommandRetryCount=3                                                    
+[18:22:15.882] COM2> /MaximumReplyRequireCount=3                                                    
+[18:22:15.882] COM2> /TimeoutOfCharacter=1000                                                       
+[18:22:15.882] COM2> /DelayTimeForReaction=5                                                        
+[18:22:15.882] COM2> /CommandToCommandInterval=5                                                    
+[18:22:15.882] COM2> /CheckDSRStatus=1                                                              
+[18:22:15.882] COM2> /ControlDTRStatus=1                                                            
+[18:22:15.882] COM2> /CheckCTSStatus=1                                                              
+[18:22:15.882] COM2> /ControlRTSStatus=1                                                            
+[18:22:15.882] COM2> /ThresholdForDetermingPowerOff=100                                             
+[18:22:15.882] COM2> /TimeoutForCancellation=2000                                                   
+[18:22:15.882] COM2> /MaximumCancellationRetryCount=3                                               
+[18:22:15.882] COM2> /MonitorTransaction=0                                                          
+[18:22:15.883] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[18:22:16.896] COM2> Closed the port.                                                               
+[18:22:16.896] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[18:22:16.996] COM2> ~ConnectDevice failed returning 102H.                                          
+[18:24:33.754] COM2> ConnectDevice( 38400baud)                                                      
+[18:24:33.755] COM2> /TimeoutForAckOrNak=2000                                                       
+[18:24:33.755] COM2> /MaximumCommandRetryCount=3                                                    
+[18:24:33.755] COM2> /MaximumReplyRequireCount=3                                                    
+[18:24:33.755] COM2> /TimeoutOfCharacter=1000                                                       
+[18:24:33.755] COM2> /DelayTimeForReaction=5                                                        
+[18:24:33.755] COM2> /CommandToCommandInterval=5                                                    
+[18:24:33.755] COM2> /CheckDSRStatus=1                                                              
+[18:24:33.755] COM2> /ControlDTRStatus=1                                                            
+[18:24:33.755] COM2> /CheckCTSStatus=1                                                              
+[18:24:33.755] COM2> /ControlRTSStatus=1                                                            
+[18:24:33.755] COM2> /ThresholdForDetermingPowerOff=100                                             
+[18:24:33.755] COM2> /TimeoutForCancellation=2000                                                   
+[18:24:33.756] COM2> /MaximumCancellationRetryCount=3                                               
+[18:24:33.756] COM2> /MonitorTransaction=0                                                          
+[18:24:33.757] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[18:24:34.771] COM2> Closed the port.                                                               
+[18:24:34.771] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[18:24:34.871] COM2> ~ConnectDevice failed returning 102H.                                          
+[18:24:42.075] COM2> ConnectDevice( 38400baud)                                                      
+[18:24:42.075] COM2> /TimeoutForAckOrNak=2000                                                       
+[18:24:42.075] COM2> /MaximumCommandRetryCount=3                                                    
+[18:24:42.075] COM2> /MaximumReplyRequireCount=3                                                    
+[18:24:42.075] COM2> /TimeoutOfCharacter=1000                                                       
+[18:24:42.076] COM2> /DelayTimeForReaction=5                                                        
+[18:24:42.076] COM2> /CommandToCommandInterval=5                                                    
+[18:24:42.076] COM2> /CheckDSRStatus=1                                                              
+[18:24:42.076] COM2> /ControlDTRStatus=1                                                            
+[18:24:42.076] COM2> /CheckCTSStatus=1                                                              
+[18:24:42.076] COM2> /ControlRTSStatus=1                                                            
+[18:24:42.076] COM2> /ThresholdForDetermingPowerOff=100                                             
+[18:24:42.076] COM2> /TimeoutForCancellation=2000                                                   
+[18:24:42.076] COM2> /MaximumCancellationRetryCount=3                                               
+[18:24:42.076] COM2> /MonitorTransaction=0                                                          
+[18:24:42.077] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[18:24:43.090] COM2> Closed the port.                                                               
+[18:24:43.090] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[18:24:43.190] COM2> ~ConnectDevice failed returning 102H.                                          
+[18:25:49.130] COM2> ConnectDevice( 38400baud)                                                      
+[18:25:49.130] COM2> /TimeoutForAckOrNak=2000                                                       
+[18:25:49.130] COM2> /MaximumCommandRetryCount=3                                                    
+[18:25:49.131] COM2> /MaximumReplyRequireCount=3                                                    
+[18:25:49.131] COM2> /TimeoutOfCharacter=1000                                                       
+[18:25:49.131] COM2> /DelayTimeForReaction=5                                                        
+[18:25:49.131] COM2> /CommandToCommandInterval=5                                                    
+[18:25:49.131] COM2> /CheckDSRStatus=1                                                              
+[18:25:49.131] COM2> /ControlDTRStatus=1                                                            
+[18:25:49.131] COM2> /CheckCTSStatus=1                                                              
+[18:25:49.131] COM2> /ControlRTSStatus=1                                                            
+[18:25:49.131] COM2> /ThresholdForDetermingPowerOff=100                                             
+[18:25:49.131] COM2> /TimeoutForCancellation=2000                                                   
+[18:25:49.131] COM2> /MaximumCancellationRetryCount=3                                               
+[18:25:49.131] COM2> /MonitorTransaction=0                                                          
+[18:25:49.132] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[18:25:50.145] COM2> Closed the port.                                                               
+[18:25:50.145] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[18:25:50.245] COM2> ~ConnectDevice failed returning 102H.                                          
+[2016/09/20]                                                                                        
+[12:53:42.065] COM2> ConnectDevice( 38400baud)                                                      
+[12:53:42.065] COM2> /TimeoutForAckOrNak=2000                                                       
+[12:53:42.065] COM2> /MaximumCommandRetryCount=3                                                    
+[12:53:42.065] COM2> /MaximumReplyRequireCount=3                                                    
+[12:53:42.065] COM2> /TimeoutOfCharacter=1000                                                       
+[12:53:42.065] COM2> /DelayTimeForReaction=5                                                        
+[12:53:42.065] COM2> /CommandToCommandInterval=5                                                    
+[12:53:42.065] COM2> /CheckDSRStatus=1                                                              
+[12:53:42.065] COM2> /ControlDTRStatus=1                                                            
+[12:53:42.065] COM2> /CheckCTSStatus=1                                                              
+[12:53:42.065] COM2> /ControlRTSStatus=1                                                            
+[12:53:42.065] COM2> /ThresholdForDetermingPowerOff=100                                             
+[12:53:42.065] COM2> /TimeoutForCancellation=2000                                                   
+[12:53:42.065] COM2> /MaximumCancellationRetryCount=3                                               
+[12:53:42.066] COM2> /MonitorTransaction=0                                                          
+[12:53:42.066] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[12:53:43.080] COM2> Closed the port.                                                               
+[12:53:43.080] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[12:53:43.180] COM2> ~ConnectDevice failed returning 102H.                                          
+[12:53:54.672] COM2> ConnectDevice( 38400baud)                                                      
+[12:53:54.672] COM2> /TimeoutForAckOrNak=2000                                                       
+[12:53:54.672] COM2> /MaximumCommandRetryCount=3                                                    
+[12:53:54.672] COM2> /MaximumReplyRequireCount=3                                                    
+[12:53:54.672] COM2> /TimeoutOfCharacter=1000                                                       
+[12:53:54.672] COM2> /DelayTimeForReaction=5                                                        
+[12:53:54.672] COM2> /CommandToCommandInterval=5                                                    
+[12:53:54.672] COM2> /CheckDSRStatus=1                                                              
+[12:53:54.672] COM2> /ControlDTRStatus=1                                                            
+[12:53:54.672] COM2> /CheckCTSStatus=1                                                              
+[12:53:54.672] COM2> /ControlRTSStatus=1                                                            
+[12:53:54.672] COM2> /ThresholdForDetermingPowerOff=100                                             
+[12:53:54.672] COM2> /TimeoutForCancellation=2000                                                   
+[12:53:54.672] COM2> /MaximumCancellationRetryCount=3                                               
+[12:53:54.672] COM2> /MonitorTransaction=0                                                          
+[12:53:54.673] COM2> Succeeded in opening COM2 at 38400 baud.                                       
+[12:53:55.686] COM2> Closed the port.                                                               
+[12:53:55.686] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[12:53:55.786] COM2> ~ConnectDevice failed returning 102H.                                          
+[12:54:08.008] COM2> ConnectDevice( 115200baud)                                                     
+[12:54:08.008] COM2> /TimeoutForAckOrNak=2000                                                       
+[12:54:08.008] COM2> /MaximumCommandRetryCount=3                                                    
+[12:54:08.008] COM2> /MaximumReplyRequireCount=3                                                    
+[12:54:08.008] COM2> /TimeoutOfCharacter=1000                                                       
+[12:54:08.009] COM2> /DelayTimeForReaction=5                                                        
+[12:54:08.009] COM2> /CommandToCommandInterval=5                                                    
+[12:54:08.009] COM2> /CheckDSRStatus=1                                                              
+[12:54:08.009] COM2> /ControlDTRStatus=1                                                            
+[12:54:08.009] COM2> /CheckCTSStatus=1                                                              
+[12:54:08.009] COM2> /ControlRTSStatus=1                                                            
+[12:54:08.009] COM2> /ThresholdForDetermingPowerOff=100                                             
+[12:54:08.009] COM2> /TimeoutForCancellation=2000                                                   
+[12:54:08.009] COM2> /MaximumCancellationRetryCount=3                                               
+[12:54:08.009] COM2> /MonitorTransaction=0                                                          
+[12:54:08.010] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[12:54:09.012] COM2> Closed the port.                                                               
+[12:54:09.012] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[12:54:09.112] COM2> ~ConnectDevice failed returning 102H.                                          
+[12:58:04.672] COM1> ConnectDevice( 115200baud)                                                     
+[12:58:04.672] COM1> /TimeoutForAckOrNak=2000                                                       
+[12:58:04.672] COM1> /MaximumCommandRetryCount=3                                                    
+[12:58:04.672] COM1> /MaximumReplyRequireCount=3                                                    
+[12:58:04.672] COM1> /TimeoutOfCharacter=1000                                                       
+[12:58:04.672] COM1> /DelayTimeForReaction=5                                                        
+[12:58:04.672] COM1> /CommandToCommandInterval=5                                                    
+[12:58:04.672] COM1> /CheckDSRStatus=1                                                              
+[12:58:04.672] COM1> /ControlDTRStatus=1                                                            
+[12:58:04.672] COM1> /CheckCTSStatus=1                                                              
+[12:58:04.672] COM1> /ControlRTSStatus=1                                                            
+[12:58:04.672] COM1> /ThresholdForDetermingPowerOff=100                                             
+[12:58:04.672] COM1> /TimeoutForCancellation=2000                                                   
+[12:58:04.672] COM1> /MaximumCancellationRetryCount=3                                               
+[12:58:04.672] COM1> /MonitorTransaction=0                                                          
+[12:58:04.673] COM1> Succeeded in opening COM1 at 115200 baud.                                      
+[12:58:05.684] COM1> Closed the port.                                                               
+[12:58:05.684] COM1> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[12:58:05.784] COM1> ~ConnectDevice failed returning 102H.                                          
+[2016/09/22]                                                                                        
+[12:39:38.734] COM2> ConnectDevice( 115200baud)                                                     
+[12:39:38.734] COM2> /TimeoutForAckOrNak=2000                                                       
+[12:39:38.734] COM2> /MaximumCommandRetryCount=3                                                    
+[12:39:38.735] COM2> /MaximumReplyRequireCount=3                                                    
+[12:39:38.735] COM2> /TimeoutOfCharacter=1000                                                       
+[12:39:38.735] COM2> /DelayTimeForReaction=5                                                        
+[12:39:38.735] COM2> /CommandToCommandInterval=5                                                    
+[12:39:38.735] COM2> /CheckDSRStatus=1                                                              
+[12:39:38.735] COM2> /ControlDTRStatus=1                                                            
+[12:39:38.735] COM2> /CheckCTSStatus=1                                                              
+[12:39:38.735] COM2> /ControlRTSStatus=1                                                            
+[12:39:38.735] COM2> /ThresholdForDetermingPowerOff=100                                             
+[12:39:38.735] COM2> /TimeoutForCancellation=2000                                                   
+[12:39:38.735] COM2> /MaximumCancellationRetryCount=3                                               
+[12:39:38.735] COM2> /MonitorTransaction=0                                                          
+[12:39:38.736] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[12:39:38.736] COM2> ~ConnectDevice succeeded.                                                      
+[12:45:03.858] COM2> ExecuteCommand( cmd=4bH, param=30H, ...)                                       
+[12:45:03.858] COM2> -> CK0                                                                         
+[12:45:03.943] COM2> <- PK001                                                                       
+[12:45:03.943] COM2> ~ExecuteCommand succeeded.                                                     
+[12:46:52.072] COM2> ExecuteCommand( cmd=4bH, param=31H, ...)                                       
+[12:46:52.072] COM2> -> CK1                                                                         
+                30                                                                                  
+[12:46:52.117] COM2> <- NK101                                                                       
+[12:46:52.117] COM2> ~ExecuteCommand succeeded.                                                     
+[12:47:48.559] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[12:47:48.559] COM2> -> C00                                                                         
+[12:47:48.604] COM2> <- N0002                                                                       
+[12:47:48.604] COM2> ~ExecuteCommand succeeded.                                                     
+[12:48:05.728] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[12:48:05.728] COM2> -> C00                                                                         
+                30                                                                                  
+[12:48:05.773] COM2> <- N0002                                                                       
+[12:48:05.773] COM2> ~ExecuteCommand succeeded.                                                     
+[12:48:10.784] COM2> ExecuteCommand( cmd=30H, param=31H, ...)                                       
+[12:48:10.784] COM2> -> C01                                                                         
+[12:48:10.829] COM2> <- N0102                                                                       
+[12:48:10.829] COM2> ~ExecuteCommand succeeded.                                                     
+[12:57:34.193] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[12:57:34.193] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[12:57:34.238] COM2> <- N0002                                                                       
+[12:57:34.238] COM2> ~ExecuteCommand succeeded.                                                     
+[12:58:30.688] COM2> ExecuteCommand( cmd=30H, param=31H, ...)                                       
+[12:58:30.688] COM2> -> C01                                                                         
+[12:58:30.733] COM2> <- N0102                                                                       
+[12:58:30.733] COM2> ~ExecuteCommand succeeded.                                                     
+[12:59:09.293] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[12:59:09.293] COM2> -> C00                                                                         
+[12:59:09.338] COM2> <- N0002                                                                       
+[12:59:09.338] COM2> ~ExecuteCommand succeeded.                                                     
+[13:00:53.234] COM2> ExecuteCommand( cmd=31H, param=31H, ...)                                       
+[13:00:53.234] COM2> -> C11                                                                         
+[13:00:53.279] COM2> <- N1100                                                                       
+[13:00:53.279] COM2> ~ExecuteCommand succeeded.                                                     
+[13:01:03.086] COM2> ExecuteCommand( cmd=4bH, param=30H, ...)                                       
+[13:01:03.086] COM2> -> CK0                                                                         
+[13:01:03.241] COM2> <- PK000                                                                       
+[13:01:03.241] COM2> ~ExecuteCommand succeeded.                                                     
+[13:01:03.334] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:01:03.334] COM2> Fatal error occurred.                                                          
+[13:01:03.345] COM2> Closed the port.                                                               
+[13:01:16.968] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:01:16.968] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:01:16.968] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:01:16.968] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:01:16.969] COM2> CancelCommand                                                                  
+[13:01:16.969] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:01:16.969] COM2> ~CancelCommand failed returning 1H.                                            
+[13:01:38.441] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:01:38.441] COM2> -> C00                                                                         
+[13:01:38.441] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:01:38.441] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:01:38.443] COM2> CancelCommand                                                                  
+[13:01:38.443] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:01:38.443] COM2> ~CancelCommand failed returning 1H.                                            
+[13:01:42.832] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:01:42.842] COM2> -> C00                                                                         
+                30                                                                                  
+[13:01:42.842] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:01:42.842] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:01:42.844] COM2> CancelCommand                                                                  
+[13:01:42.844] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:01:42.844] COM2> ~CancelCommand failed returning 1H.                                            
+[13:01:57.472] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:01:57.472] COM2> -> C00                                                                         
+                30 30 30 30                                                                         
+[13:01:57.472] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:01:57.472] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:01:57.474] COM2> CancelCommand                                                                  
+[13:01:57.474] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:01:57.474] COM2> ~CancelCommand failed returning 1H.                                            
+[13:02:26.747] COM2> ExecuteCommand( cmd=31H, param=30H, ...)                                       
+[13:02:26.747] COM2> -> C10                                                                         
+[13:02:26.747] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:02:26.747] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:02:26.748] COM2> CancelCommand                                                                  
+[13:02:26.748] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:02:26.748] COM2> ~CancelCommand failed returning 1H.                                            
+[13:02:48.361] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:02:48.361] COM2> -> C00                                                                         
+                33 32 34 31 30 30 30 30 - 30 31 30                                                  
+[13:02:48.361] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:02:48.361] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:02:48.363] COM2> CancelCommand                                                                  
+[13:02:48.363] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:02:48.363] COM2> ~CancelCommand failed returning 1H.                                            
+[13:03:03.471] COM2> ExecuteCommand( cmd=35H, param=31H, ...)                                       
+[13:03:03.471] COM2> -> C51                                                                         
+[13:03:03.471] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:03:03.471] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:03:03.472] COM2> CancelCommand                                                                  
+[13:03:03.472] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:03:03.472] COM2> ~CancelCommand failed returning 1H.                                            
+[13:03:18.177] COM2> ExecuteCommand( cmd=4bH, param=30H, ...)                                       
+[13:03:18.177] COM2> -> CK0                                                                         
+[13:03:18.177] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:03:18.177] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:03:18.179] COM2> CancelCommand                                                                  
+[13:03:18.179] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:03:18.179] COM2> ~CancelCommand failed returning 1H.                                            
+[13:03:22.094] COM2> DisconnectDevice                                                               
+[13:03:22.094] COM2> [API::$DisconnectDevice] Device is not connected.                              
+[13:03:22.094] COM2> ~DisconnectDevice failed returning 1H.                                         
+[13:03:22.949] COM2> ConnectDevice( 115200baud)                                                     
+[13:03:22.949] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:03:22.950] COM2> /MaximumCommandRetryCount=3                                                    
+[13:03:22.950] COM2> /MaximumReplyRequireCount=3                                                    
+[13:03:22.950] COM2> /TimeoutOfCharacter=1000                                                       
+[13:03:22.950] COM2> /DelayTimeForReaction=5                                                        
+[13:03:22.950] COM2> /CommandToCommandInterval=5                                                    
+[13:03:22.950] COM2> /CheckDSRStatus=1                                                              
+[13:03:22.950] COM2> /ControlDTRStatus=1                                                            
+[13:03:22.950] COM2> /CheckCTSStatus=1                                                              
+[13:03:22.950] COM2> /ControlRTSStatus=1                                                            
+[13:03:22.950] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:03:22.950] COM2> /TimeoutForCancellation=2000                                                   
+[13:03:22.950] COM2> /MaximumCancellationRetryCount=3                                               
+[13:03:22.950] COM2> /MonitorTransaction=0                                                          
+[13:03:22.951] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:03:22.951] COM2> ~ConnectDevice succeeded.                                                      
+[13:03:26.262] COM2> CancelCommand                                                                  
+[13:03:26.262] COM2> -> DLE,EOT                                                                     
+[13:03:28.262] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:28.262] COM2> -> DLE,EOT                                                                     
+[13:03:30.262] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:30.262] COM2> -> DLE,EOT                                                                     
+[13:03:32.262] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:32.262] COM2> -> DLE,EOT                                                                     
+[13:03:34.262] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:34.272] COM2> ~CancelCommand failed returning 6H.                                            
+[13:03:34.309] COM2> CancelCommand                                                                  
+[13:03:34.309] COM2> -> DLE,EOT                                                                     
+[13:03:36.309] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:36.309] COM2> -> DLE,EOT                                                                     
+[13:03:38.309] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:38.309] COM2> -> DLE,EOT                                                                     
+[13:03:40.309] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:40.309] COM2> -> DLE,EOT                                                                     
+[13:03:42.309] COM2> Timeout occurred when waiting for a reply for the cancel command.              
+[13:03:42.319] COM2> ~CancelCommand failed returning 6H.                                            
+[13:04:13.961] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:04:13.961] COM2> -> C20                                                                         
+                31                                                                                  
+[13:04:14.006] COM2> <- N20B0                                                                       
+[13:04:14.006] COM2> ~ExecuteCommand succeeded.                                                     
+[13:04:44.352] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:04:44.352] COM2> -> C00                                                                         
+[13:04:44.397] COM2> <- N0004                                                                       
+[13:04:44.397] COM2> ~ExecuteCommand succeeded.                                                     
+[13:04:55.174] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:04:55.174] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:04:58.409] COM2> <- N0010                                                                       
+[13:04:58.409] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:06.476] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:05:06.477] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:05:06.942] COM2> <- P0001                                                                       
+[13:05:06.942] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:12.437] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:05:12.437] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:05:12.532] COM2> <- P0001                                                                       
+[13:05:12.532] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:24.278] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:24.278] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:29.927] COM2> <- N2024                                                                       
+[13:05:29.927] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:40.345] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:40.345] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:41.762] COM2> <- N2024                                                                       
+[13:05:41.762] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:43.063] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:43.063] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:43.108] COM2> <- N2002                                                                       
+[13:05:43.108] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:44.408] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:44.408] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:44.453] COM2> <- N2002                                                                       
+[13:05:44.453] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:46.961] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:46.961] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:47.006] COM2> <- N2002                                                                       
+[13:05:47.006] COM2> ~ExecuteCommand succeeded.                                                     
+[13:05:51.129] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:05:51.129] COM2> -> C20                                                                         
+                31                                                                                  
+[13:05:52.934] COM2> <- N2024                                                                       
+[13:05:52.934] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:02.088] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:06:02.088] COM2> -> C20                                                                         
+                31                                                                                  
+[13:06:03.363] COM2> <- N2024                                                                       
+[13:06:03.363] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:09.633] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:06:09.633] COM2> -> C20                                                                         
+                31                                                                                  
+[13:06:10.588] COM2> <- N2024                                                                       
+[13:06:10.588] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:19.976] COM2> ExecuteCommand( cmd=33H, param=30H, ...)                                       
+[13:06:19.976] COM2> -> C30                                                                         
+[13:06:20.021] COM2> <- P3001                                                                       
+[13:06:20.021] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:28.890] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:06:28.890] COM2> -> C31                                                                         
+[13:06:30.795] COM2> <- P3100                                                                       
+[13:06:30.795] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:38.296] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:06:38.296] COM2> -> C31                                                                         
+[13:06:41.441] COM2> <- N3110                                                                       
+[13:06:41.441] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:54.655] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:06:54.655] COM2> -> C20                                                                         
+                31                                                                                  
+[13:06:56.370] COM2> <- N2024                                                                       
+[13:06:56.370] COM2> ~ExecuteCommand succeeded.                                                     
+[13:06:56.374] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:06:56.374] COM2> -> C31                                                                         
+[13:06:58.279] COM2> <- P3100                                                                       
+[13:06:58.279] COM2> ~ExecuteCommand succeeded.                                                     
+[13:07:19.329] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:07:19.329] COM2> Fatal error occurred.                                                          
+[13:07:19.340] COM2> Closed the port.                                                               
+[13:09:26.582] COM2> DisconnectDevice                                                               
+[13:09:26.582] COM2> [API::$DisconnectDevice] Device is not connected.                              
+[13:09:26.582] COM2> ~DisconnectDevice failed returning 1H.                                         
+[13:09:27.854] COM2> ConnectDevice( 115200baud)                                                     
+[13:09:27.854] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:09:27.854] COM2> /MaximumCommandRetryCount=3                                                    
+[13:09:27.854] COM2> /MaximumReplyRequireCount=3                                                    
+[13:09:27.854] COM2> /TimeoutOfCharacter=1000                                                       
+[13:09:27.854] COM2> /DelayTimeForReaction=5                                                        
+[13:09:27.854] COM2> /CommandToCommandInterval=5                                                    
+[13:09:27.855] COM2> /CheckDSRStatus=1                                                              
+[13:09:27.855] COM2> /ControlDTRStatus=1                                                            
+[13:09:27.855] COM2> /CheckCTSStatus=1                                                              
+[13:09:27.855] COM2> /ControlRTSStatus=1                                                            
+[13:09:27.855] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:09:27.855] COM2> /TimeoutForCancellation=2000                                                   
+[13:09:27.855] COM2> /MaximumCancellationRetryCount=3                                               
+[13:09:27.855] COM2> /MonitorTransaction=0                                                          
+[13:09:27.856] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:09:27.856] COM2> ~ConnectDevice succeeded.                                                      
+[13:09:33.755] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:09:33.755] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:09:33.850] COM2> <- P0000                                                                       
+[13:09:33.850] COM2> ~ExecuteCommand succeeded.                                                     
+[13:09:39.351] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:09:39.351] COM2> -> C20                                                                         
+                31                                                                                  
+[13:09:55.628] COM2> <- N2030                                                                       
+[13:09:55.628] COM2> ~ExecuteCommand succeeded.                                                     
+[13:09:55.706] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:09:55.706] COM2> Fatal error occurred.                                                          
+[13:09:55.706] COM2> ClearCommError retrieved information about a communications error: 00000000    
+[13:09:55.716] COM2> Closed the port.                                                               
+[13:10:40.214] COM2> DisconnectDevice                                                               
+[13:10:40.214] COM2> [API::$DisconnectDevice] Device is not connected.                              
+[13:10:40.214] COM2> ~DisconnectDevice failed returning 1H.                                         
+[13:10:40.957] COM2> ConnectDevice( 115200baud)                                                     
+[13:10:40.957] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:10:40.957] COM2> /MaximumCommandRetryCount=3                                                    
+[13:10:40.957] COM2> /MaximumReplyRequireCount=3                                                    
+[13:10:40.958] COM2> /TimeoutOfCharacter=1000                                                       
+[13:10:40.958] COM2> /DelayTimeForReaction=5                                                        
+[13:10:40.958] COM2> /CommandToCommandInterval=5                                                    
+[13:10:40.958] COM2> /CheckDSRStatus=1                                                              
+[13:10:40.958] COM2> /ControlDTRStatus=1                                                            
+[13:10:40.958] COM2> /CheckCTSStatus=1                                                              
+[13:10:40.958] COM2> /ControlRTSStatus=1                                                            
+[13:10:40.958] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:10:40.958] COM2> /TimeoutForCancellation=2000                                                   
+[13:10:40.958] COM2> /MaximumCancellationRetryCount=3                                               
+[13:10:40.958] COM2> /MonitorTransaction=0                                                          
+[13:10:40.959] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:10:40.959] COM2> ~ConnectDevice succeeded.                                                      
+[13:10:46.992] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:10:46.992] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:10:47.097] COM2> <- P0000                                                                       
+[13:10:47.097] COM2> ~ExecuteCommand succeeded.                                                     
+[13:10:50.185] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:10:50.185] COM2> -> C20                                                                         
+                31                                                                                  
+[13:11:10.225] COM2> Timeout occurred when waiting for a reply for the command.                     
+[13:11:10.235] COM2> ~ExecuteCommand failed returning 6H.                                           
+[13:11:10.236] COM2> CancelCommand                                                                  
+[13:11:10.236] COM2> -> DLE,EOT                                                                     
+[13:11:10.256] COM2> <- DLE,EOT                                                                     
+[13:11:10.261] COM2> ~CancelCommand succeeded.                                                      
+[13:11:14.502] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:11:14.502] COM2> -> C20                                                                         
+                31                                                                                  
+[13:11:14.547] COM2> <- N2002                                                                       
+[13:11:14.547] COM2> ~ExecuteCommand succeeded.                                                     
+[13:11:23.322] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:11:23.322] COM2> -> C31                                                                         
+[13:11:23.867] COM2> <- N3114                                                                       
+[13:11:23.867] COM2> ~ExecuteCommand succeeded.                                                     
+[13:11:28.015] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:11:28.016] COM2> -> C31                                                                         
+[13:11:28.561] COM2> <- N3114                                                                       
+[13:11:28.561] COM2> ~ExecuteCommand succeeded.                                                     
+[13:11:32.128] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:11:32.128] COM2> -> C31                                                                         
+[13:11:32.673] COM2> <- N3114                                                                       
+[13:11:32.673] COM2> ~ExecuteCommand succeeded.                                                     
+[13:13:25.417] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:13:25.417] COM2> -> C31                                                                         
+[13:13:25.962] COM2> <- N3114                                                                       
+[13:13:25.962] COM2> ~ExecuteCommand succeeded.                                                     
+[13:13:34.437] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:13:34.437] COM2> -> C20                                                                         
+                31                                                                                  
+[13:13:34.482] COM2> <- N2002                                                                       
+[13:13:34.482] COM2> ~ExecuteCommand succeeded.                                                     
+[13:13:48.932] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:13:48.932] COM2> Fatal error occurred.                                                          
+[13:13:48.943] COM2> Closed the port.                                                               
+[13:14:11.685] COM2> DisconnectDevice                                                               
+[13:14:11.685] COM2> [API::$DisconnectDevice] Device is not connected.                              
+[13:14:11.685] COM2> ~DisconnectDevice failed returning 1H.                                         
+[13:14:12.302] COM2> ConnectDevice( 115200baud)                                                     
+[13:14:12.302] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:14:12.302] COM2> /MaximumCommandRetryCount=3                                                    
+[13:14:12.302] COM2> /MaximumReplyRequireCount=3                                                    
+[13:14:12.302] COM2> /TimeoutOfCharacter=1000                                                       
+[13:14:12.303] COM2> /DelayTimeForReaction=5                                                        
+[13:14:12.303] COM2> /CommandToCommandInterval=5                                                    
+[13:14:12.303] COM2> /CheckDSRStatus=1                                                              
+[13:14:12.303] COM2> /ControlDTRStatus=1                                                            
+[13:14:12.303] COM2> /CheckCTSStatus=1                                                              
+[13:14:12.303] COM2> /ControlRTSStatus=1                                                            
+[13:14:12.303] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:14:12.303] COM2> /TimeoutForCancellation=2000                                                   
+[13:14:12.303] COM2> /MaximumCancellationRetryCount=3                                               
+[13:14:12.303] COM2> /MonitorTransaction=0                                                          
+[13:14:12.304] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:14:12.304] COM2> ~ConnectDevice succeeded.                                                      
+[13:14:19.528] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:14:19.528] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:14:20.333] COM2> <- P0001                                                                       
+[13:14:20.333] COM2> ~ExecuteCommand succeeded.                                                     
+[13:14:33.988] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:14:33.988] COM2> -> C20                                                                         
+                31                                                                                  
+[13:14:34.033] COM2> <- N2002                                                                       
+[13:14:34.033] COM2> ~ExecuteCommand succeeded.                                                     
+[13:14:34.038] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:14:34.038] COM2> -> C31                                                                         
+[13:14:34.583] COM2> <- N3114                                                                       
+[13:14:34.583] COM2> ~ExecuteCommand succeeded.                                                     
+[13:14:41.969] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:14:41.969] COM2> -> C20                                                                         
+                31                                                                                  
+[13:14:42.014] COM2> <- N2002                                                                       
+[13:14:42.014] COM2> ~ExecuteCommand succeeded.                                                     
+[13:14:42.019] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:14:42.019] COM2> -> C31                                                                         
+[13:14:42.214] COM2> <- N3114                                                                       
+[13:14:42.214] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:06.330] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:15:06.330] COM2> -> C20                                                                         
+                31                                                                                  
+[13:15:06.375] COM2> <- N2014                                                                       
+[13:15:06.375] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:06.380] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:15:06.380] COM2> -> C31                                                                         
+[13:15:09.526] COM2> <- N3110                                                                       
+[13:15:09.526] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:13.032] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:15:13.032] COM2> -> C20                                                                         
+                31                                                                                  
+[13:15:13.077] COM2> <- N2010                                                                       
+[13:15:13.077] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:13.084] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:15:13.084] COM2> -> C31                                                                         
+[13:15:15.910] COM2> <- P3101                                                                       
+[13:15:15.910] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:25.065] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:15:25.065] COM2> -> C20                                                                         
+                31                                                                                  
+[13:15:25.110] COM2> <- N2014                                                                       
+[13:15:25.110] COM2> ~ExecuteCommand succeeded.                                                     
+[13:15:25.115] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:15:25.115] COM2> -> C31                                                                         
+[13:15:27.220] COM2> <- P3101                                                                       
+[13:15:27.220] COM2> ~ExecuteCommand succeeded.                                                     
+[13:16:12.895] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:16:12.895] COM2> -> C20                                                                         
+                31                                                                                  
+[13:16:12.940] COM2> <- N2014                                                                       
+[13:16:12.940] COM2> ~ExecuteCommand succeeded.                                                     
+[13:16:12.944] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:16:12.944] COM2> -> C31                                                                         
+[13:16:14.819] COM2> <- P3101                                                                       
+[13:16:14.819] COM2> ~ExecuteCommand succeeded.                                                     
+[13:17:09.808] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:17:09.808] COM2> -> C20                                                                         
+                31                                                                                  
+[13:17:09.853] COM2> <- N2014                                                                       
+[13:17:09.853] COM2> ~ExecuteCommand succeeded.                                                     
+[13:17:09.856] COM2> ExecuteCommand( cmd=36H, param=33H, ...)                                       
+[13:17:09.856] COM2> -> C63                                                                         
+[13:17:09.901] COM2> <- N6302                                                                       
+[13:17:09.901] COM2> ~ExecuteCommand succeeded.                                                     
+[13:17:09.905] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:17:09.905] COM2> -> C31                                                                         
+[13:17:11.840] COM2> <- P3101                                                                       
+[13:17:11.840] COM2> ~ExecuteCommand succeeded.                                                     
+[13:17:34.098] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:17:34.098] COM2> Fatal error occurred.                                                          
+[13:17:34.109] COM2> Closed the port.                                                               
+[13:22:17.534] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:22:17.534] COM2> -> C20                                                                         
+                31                                                                                  
+[13:22:17.534] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:22:17.534] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:22:17.535] COM2> CancelCommand                                                                  
+[13:22:17.535] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:22:17.535] COM2> ~CancelCommand failed returning 1H.                                            
+[13:22:20.247] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:22:20.247] COM2> -> C20                                                                         
+                31                                                                                  
+[13:22:20.247] COM2> [API::$ExecuteCommand] Device is not connected.                                
+[13:22:20.247] COM2> ~ExecuteCommand failed returning 1H.                                           
+[13:22:20.248] COM2> CancelCommand                                                                  
+[13:22:20.248] COM2> [API::$CancelCommand] Device is not connected.                                 
+[13:22:20.248] COM2> ~CancelCommand failed returning 1H.                                            
+[13:22:22.069] COM2> DisconnectDevice                                                               
+[13:22:22.069] COM2> [API::$DisconnectDevice] Device is not connected.                              
+[13:22:22.069] COM2> ~DisconnectDevice failed returning 1H.                                         
+[13:22:22.686] COM2> ConnectDevice( 115200baud)                                                     
+[13:22:22.686] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:22:22.686] COM2> /MaximumCommandRetryCount=3                                                    
+[13:22:22.686] COM2> /MaximumReplyRequireCount=3                                                    
+[13:22:22.686] COM2> /TimeoutOfCharacter=1000                                                       
+[13:22:22.686] COM2> /DelayTimeForReaction=5                                                        
+[13:22:22.686] COM2> /CommandToCommandInterval=5                                                    
+[13:22:22.686] COM2> /CheckDSRStatus=1                                                              
+[13:22:22.686] COM2> /ControlDTRStatus=1                                                            
+[13:22:22.686] COM2> /CheckCTSStatus=1                                                              
+[13:22:22.686] COM2> /ControlRTSStatus=1                                                            
+[13:22:22.686] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:22:22.686] COM2> /TimeoutForCancellation=2000                                                   
+[13:22:22.686] COM2> /MaximumCancellationRetryCount=3                                               
+[13:22:22.686] COM2> /MonitorTransaction=0                                                          
+[13:22:22.687] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:22:23.698] COM2> Closed the port.                                                               
+[13:22:23.698] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[13:22:23.798] COM2> ~ConnectDevice failed returning 102H.                                          
+[13:22:46.373] COM2> ConnectDevice( 115200baud)                                                     
+[13:22:46.373] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:22:46.373] COM2> /MaximumCommandRetryCount=3                                                    
+[13:22:46.373] COM2> /MaximumReplyRequireCount=3                                                    
+[13:22:46.373] COM2> /TimeoutOfCharacter=1000                                                       
+[13:22:46.373] COM2> /DelayTimeForReaction=5                                                        
+[13:22:46.373] COM2> /CommandToCommandInterval=5                                                    
+[13:22:46.373] COM2> /CheckDSRStatus=1                                                              
+[13:22:46.373] COM2> /ControlDTRStatus=1                                                            
+[13:22:46.373] COM2> /CheckCTSStatus=1                                                              
+[13:22:46.373] COM2> /ControlRTSStatus=1                                                            
+[13:22:46.373] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:22:46.373] COM2> /TimeoutForCancellation=2000                                                   
+[13:22:46.373] COM2> /MaximumCancellationRetryCount=3                                               
+[13:22:46.373] COM2> /MonitorTransaction=0                                                          
+[13:22:46.374] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:22:47.385] COM2> Closed the port.                                                               
+[13:22:47.385] COM2> [API::ConnectDevice] DSR is off.  Device is not ready.                         
+[13:22:47.485] COM2> ~ConnectDevice failed returning 102H.                                          
+[13:22:57.470] COM2> ConnectDevice( 115200baud)                                                     
+[13:22:57.470] COM2> /TimeoutForAckOrNak=2000                                                       
+[13:22:57.470] COM2> /MaximumCommandRetryCount=3                                                    
+[13:22:57.470] COM2> /MaximumReplyRequireCount=3                                                    
+[13:22:57.470] COM2> /TimeoutOfCharacter=1000                                                       
+[13:22:57.470] COM2> /DelayTimeForReaction=5                                                        
+[13:22:57.470] COM2> /CommandToCommandInterval=5                                                    
+[13:22:57.470] COM2> /CheckDSRStatus=1                                                              
+[13:22:57.470] COM2> /ControlDTRStatus=1                                                            
+[13:22:57.470] COM2> /CheckCTSStatus=1                                                              
+[13:22:57.470] COM2> /ControlRTSStatus=1                                                            
+[13:22:57.470] COM2> /ThresholdForDetermingPowerOff=100                                             
+[13:22:57.470] COM2> /TimeoutForCancellation=2000                                                   
+[13:22:57.470] COM2> /MaximumCancellationRetryCount=3                                               
+[13:22:57.470] COM2> /MonitorTransaction=0                                                          
+[13:22:57.471] COM2> Succeeded in opening COM2 at 115200 baud.                                      
+[13:22:57.471] COM2> ~ConnectDevice succeeded.                                                      
+[13:23:00.095] COM2> ExecuteCommand( cmd=30H, param=30H, ...)                                       
+[13:23:00.095] COM2> -> C00                                                                         
+                30 30 30 30 30                                                                      
+[13:23:00.190] COM2> <- P0001                                                                       
+[13:23:00.190] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:04.960] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:23:04.960] COM2> -> C20                                                                         
+                31                                                                                  
+[13:23:07.610] COM2> <- N2018                                                                       
+[13:23:07.610] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:07.614] COM2> ExecuteCommand( cmd=36H, param=33H, ...)                                       
+[13:23:07.614] COM2> -> C63                                                                         
+[13:23:07.659] COM2> <- N6302                                                                       
+[13:23:07.659] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:07.663] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:23:07.663] COM2> -> C31                                                                         
+[13:23:11.388] COM2> <- P3101                                                                       
+[13:23:11.388] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:26.409] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:23:26.409] COM2> -> C20                                                                         
+                31                                                                                  
+[13:23:26.454] COM2> <- N2018                                                                       
+[13:23:26.454] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:26.459] COM2> ExecuteCommand( cmd=36H, param=33H, ...)                                       
+[13:23:26.459] COM2> -> C63                                                                         
+[13:23:26.504] COM2> <- N6302                                                                       
+[13:23:26.504] COM2> ~ExecuteCommand succeeded.                                                     
+[13:23:26.508] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:23:26.508] COM2> -> C31                                                                         
+[13:23:28.793] COM2> <- P3101                                                                       
+[13:23:28.793] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:11.225] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:24:11.225] COM2> -> C20                                                                         
+                31                                                                                  
+[13:24:14.960] COM2> <- P2002                                                                       
+[13:24:14.960] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:14.965] COM2> ExecuteCommand( cmd=36H, param=33H, ...)                                       
+[13:24:14.965] COM2> -> C63                                                                         
+[13:24:15.010] COM2> <- N6324                                                                       
+[13:24:15.010] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:15.015] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:24:15.015] COM2> -> C31                                                                         
+[13:24:16.404] COM2> <- P3100                                                                       
+[13:24:16.404] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:25.345] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:24:25.345] COM2> -> C20                                                                         
+                31                                                                                  
+[13:24:27.880] COM2> <- N2024                                                                       
+[13:24:27.880] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:27.884] COM2> ExecuteCommand( cmd=36H, param=33H, ...)                                       
+[13:24:27.885] COM2> -> C63                                                                         
+[13:24:27.930] COM2> <- N6302                                                                       
+[13:24:27.930] COM2> ~ExecuteCommand succeeded.                                                     
+[13:24:27.935] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:24:27.935] COM2> -> C31                                                                         
+[13:24:29.830] COM2> <- P3100                                                                       
+[13:24:29.830] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:41.979] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:25:41.979] COM2> -> C20                                                                         
+                31                                                                                  
+[13:25:44.335] COM2> <- N2018                                                                       
+[13:25:44.335] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:44.341] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:25:44.341] COM2> -> C65                                                                         
+[13:25:44.386] COM2> <- N6502                                                                       
+[13:25:44.386] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:44.390] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:25:44.390] COM2> -> C31                                                                         
+[13:25:46.075] COM2> <- P3101                                                                       
+[13:25:46.075] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:53.874] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:25:53.874] COM2> -> C20                                                                         
+                31                                                                                  
+[13:25:53.919] COM2> <- N2018                                                                       
+[13:25:53.919] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:53.922] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:25:53.922] COM2> -> C65                                                                         
+[13:25:53.967] COM2> <- N6502                                                                       
+[13:25:53.967] COM2> ~ExecuteCommand succeeded.                                                     
+[13:25:53.971] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:25:53.971] COM2> -> C31                                                                         
+[13:25:56.897] COM2> <- P3101                                                                       
+[13:25:56.897] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:20.439] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:20.439] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:20.484] COM2> <- N2018                                                                       
+[13:26:20.484] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:20.490] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:20.490] COM2> -> C65                                                                         
+[13:26:20.535] COM2> <- N6502                                                                       
+[13:26:20.535] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:30.543] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:30.543] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:32.248] COM2> <- N2024                                                                       
+[13:26:32.248] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:32.252] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:32.253] COM2> -> C65                                                                         
+[13:26:32.298] COM2> <- N6502                                                                       
+[13:26:32.298] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:34.329] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:34.330] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:34.375] COM2> <- N2002                                                                       
+[13:26:34.375] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:34.379] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:34.379] COM2> -> C65                                                                         
+[13:26:34.424] COM2> <- N6502                                                                       
+[13:26:34.424] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:37.576] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:37.576] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:37.621] COM2> <- N2024                                                                       
+[13:26:37.621] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:37.626] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:37.626] COM2> -> C65                                                                         
+[13:26:37.671] COM2> <- N6502                                                                       
+[13:26:37.671] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:39.673] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:39.673] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:39.718] COM2> <- N2024                                                                       
+[13:26:39.718] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:39.723] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:39.723] COM2> -> C65                                                                         
+[13:26:39.769] COM2> <- N6502                                                                       
+[13:26:39.769] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:47.105] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:26:47.105] COM2> -> C20                                                                         
+                31                                                                                  
+[13:26:49.300] COM2> <- P2002                                                                       
+[13:26:49.300] COM2> ~ExecuteCommand succeeded.                                                     
+[13:26:49.303] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:26:49.303] COM2> -> C65                                                                         
+[13:26:49.348] COM2> <- P6502                                                                       
+                ... (Data size:64byte(s))                                                           
+[13:26:49.348] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:19.831] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:27:19.831] COM2> -> C20                                                                         
+                31                                                                                  
+[13:27:19.876] COM2> <- N2002                                                                       
+[13:27:19.876] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:19.880] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:27:19.880] COM2> -> C65                                                                         
+[13:27:19.925] COM2> <- P6502                                                                       
+                ... (Data size:64byte(s))                                                           
+[13:27:19.925] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:19.930] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:27:19.930] COM2> -> C31                                                                         
+[13:27:21.315] COM2> <- P3100                                                                       
+[13:27:21.315] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:29.207] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:27:29.208] COM2> -> C20                                                                         
+                31                                                                                  
+[13:27:30.833] COM2> <- N2024                                                                       
+[13:27:30.833] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:33.059] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:27:33.059] COM2> -> C65                                                                         
+[13:27:33.104] COM2> <- N6502                                                                       
+[13:27:33.104] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:33.994] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:27:33.994] COM2> -> C31                                                                         
+[13:27:35.859] COM2> <- P3101                                                                       
+[13:27:35.859] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:39.614] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:27:39.614] COM2> -> C20                                                                         
+                31                                                                                  
+[13:27:39.660] COM2> <- N2024                                                                       
+[13:27:39.660] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:45.494] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:27:45.494] COM2> -> C20                                                                         
+                31                                                                                  
+[13:27:45.539] COM2> <- N2024                                                                       
+[13:27:45.539] COM2> ~ExecuteCommand succeeded.                                                     
+[13:27:52.753] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:27:52.753] COM2> -> C20                                                                         
+                31                                                                                  
+[13:27:55.058] COM2> <- N2024                                                                       
+[13:27:55.058] COM2> ~ExecuteCommand succeeded.                                                     
+[13:28:09.296] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:28:09.296] COM2> -> C20                                                                         
+                31                                                                                  
+[13:28:11.381] COM2> <- N2024                                                                       
+[13:28:11.381] COM2> ~ExecuteCommand succeeded.                                                     
+[13:28:50.813] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:28:50.813] COM2> -> C20                                                                         
+                31                                                                                  
+[13:28:52.878] COM2> <- N2018                                                                       
+[13:28:52.878] COM2> ~ExecuteCommand succeeded.                                                     
+[13:29:30.891] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:29:30.891] COM2> -> C20                                                                         
+                31                                                                                  
+[13:29:33.586] COM2> <- P2002                                                                       
+[13:29:33.586] COM2> ~ExecuteCommand succeeded.                                                     
+[13:29:36.274] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:29:36.274] COM2> -> C65                                                                         
+[13:29:36.319] COM2> <- P6502                                                                       
+                ... (Data size:69byte(s))                                                           
+[13:29:36.319] COM2> ~ExecuteCommand succeeded.                                                     
+[13:29:38.738] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:29:38.738] COM2> -> C31                                                                         
+[13:29:40.123] COM2> <- P3100                                                                       
+[13:29:40.123] COM2> ~ExecuteCommand succeeded.                                                     
+[13:30:39.742] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:30:39.771] COM2> -> C20                                                                         
+                31                                                                                  
+[13:30:42.898] COM2> <- N2010                                                                       
+[13:30:42.898] COM2> ~ExecuteCommand succeeded.                                                     
+[13:30:49.014] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:30:49.014] COM2> -> C20                                                                         
+                31                                                                                  
+[13:30:51.731] COM2> <- P2002                                                                       
+[13:30:51.731] COM2> ~ExecuteCommand succeeded.                                                     
+[13:31:03.801] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:31:03.801] COM2> -> C65                                                                         
+[13:31:03.846] COM2> <- P6502                                                                       
+                ... (Data size:69byte(s))                                                           
+[13:31:03.846] COM2> ~ExecuteCommand succeeded.                                                     
+[13:31:05.489] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:31:05.489] COM2> -> C31                                                                         
+[13:31:06.874] COM2> <- P3100                                                                       
+[13:31:06.874] COM2> ~ExecuteCommand succeeded.                                                     
+[13:31:20.313] COM2> ExecuteCommand( cmd=32H, param=30H, ...)                                       
+[13:31:20.313] COM2> -> C20                                                                         
+                31                                                                                  
+[13:31:23.599] COM2> <- P2002                                                                       
+[13:31:23.599] COM2> ~ExecuteCommand succeeded.                                                     
+[13:31:25.195] COM2> ExecuteCommand( cmd=36H, param=35H, ...)                                       
+[13:31:25.195] COM2> -> C65                                                                         
+[13:31:25.240] COM2> <- P6502                                                                       
+                ... (Data size:69byte(s))                                                           
+[13:31:25.240] COM2> ~ExecuteCommand succeeded.                                                     
+[13:31:26.994] COM2> ExecuteCommand( cmd=33H, param=31H, ...)                                       
+[13:31:26.994] COM2> -> C31                                                                         
+[13:31:28.402] COM2> <- P3100                                                                       
+[13:31:28.402] COM2> ~ExecuteCommand succeeded.                                                     
+[13:32:02.126] COM2> DSR was turned off.  Power failure might have occurred.                        
+[13:32:02.126] COM2> Fatal error occurred.                                                          
+[13:32:02.137] COM2> Closed the port.                                                               
+;===================================================================================================
+; ICT3K5_6240DLL.dll  Revision: 2587-02F                                                            
+; PrtclRS8.dll  Revision: 2567-01O                                                                  
+; CollectLogEx.dll Revision: 2509-02A                                                               
+;===================================================================================================
+[2017/02/10]                                                                                        
+;===================================================================================================
+; ICT3K5_6240DLL.dll  Revision: 2587-02F                                                            
+; PrtclRS8.dll  Revision: 2567-01O                                                                  
+; CollectLogEx.dll Revision: 2509-02A                                                               
+;===================================================================================================
+[2017/07/17]                                                                                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
